@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -19,7 +20,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.png);
+  background-image: url(top.gif);
   background-size: cover;
   color: white;
   text-align: center;
