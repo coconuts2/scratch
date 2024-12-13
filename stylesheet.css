@@ -25,32 +25,27 @@ a {
   color: white;
   text-align: center;
 }
+
 .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
 }
+
 .top-wrapper p {
   opacity: 0.7;
   font-size: 16px;
   margin-bottom: 40px;
 }
+
 .btn-wrapper {
   text-align: center;
 }
+
 .btn-wrapper p {
   margin-bottom: 20px;
 }
-.signup {
-  background-color: #239b76;
-}
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-.twitter {
-  background-color: #55acee;
-}
+
 .btn {
   padding: 8px 24px;
   color: white;
@@ -59,12 +54,15 @@ a {
   border-radius: 4px;
   text-align: center;
 }
+
 .btn:hover {
   opacity: 1;
 }
+
 .fa {
   margin-right: 5px;
 }
+
 header {
   height: 65px;
   width: 100%;
@@ -78,8 +76,19 @@ header {
   width: 124px;
   margin-top: 20px;
 }
+
 .header-left {
   float: left;
+  margin-right: -25px;
+}
+
+.header-left a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .header-right {
@@ -95,9 +104,11 @@ header {
   float: left;
   transition: all 0.5s;
 }
+
 .header-right a:hover {
   background-color: rgba(255,255,255,0.3);
 }
+
 .lesson-wrapper {
   height: 580px;
   padding-bottom: 80px;
@@ -228,9 +239,6 @@ footer {
     width: 100%;
   }
 
-  .twitter {
-    margin-top: 10px;
-  }
   .top-wrapper {
     text-align: left;
   }
@@ -255,20 +263,25 @@ footer {
     width: 100%;
   }
 }
+
 .list-data{
     opacity: 1;
 }
+
 .list-data.is-hidden {
     opacity: 0;
     height: 0;
     margin: 0;
 }
+
 .list-btn {
     margin: 20px 0;
 }
+
 .list-btn.is-btn-hidden{
   display:none;
 }
+
 .list-btn button {
     color:#333;
     background:transparent;
@@ -281,6 +294,7 @@ footer {
     width: 200px;
     transition:all 0.3s;
 }
+
 .list-btn button:hover {
     opacity:0.6;
 }
