@@ -15,9 +15,32 @@ header {
 
 .header-left {
   float: left;
+  margin-right: -25px;
+}
+
+.header-left a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .header-right {
   float: right;
   margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
 }
