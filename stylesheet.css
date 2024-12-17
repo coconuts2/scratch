@@ -79,7 +79,7 @@ header {
 
 .header-left {
   float: left;
-  margin: 25px;
+  margin: -25px;
 }
 
 .header-left a {
