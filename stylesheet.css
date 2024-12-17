@@ -91,8 +91,12 @@ header {
   transition: all 0.5s;
 }
 
+.header-left a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
 .header-right {
-  float: right;
+  float: left;
   margin: -25px;
 }
 
