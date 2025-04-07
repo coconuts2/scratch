@@ -113,7 +113,7 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
+.project-wrapper {
   height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
@@ -132,16 +132,16 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.project {
   float: left;
-  width: 25%;
+  width: 33.3333%;
 }
 
-.lesson-icon {
+.project-icon {
   position: relative;
 }
 
-.lesson-icon p {
+.project-icon p {
   position: absolute;
   top: 37%;
   width: 100%;
@@ -259,7 +259,7 @@ footer {
     width: 100%;
   }
 
-  .lesson-wrapper {
+  .project-wrapper {
     height: 1700px;
   }
 
