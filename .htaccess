@@ -1,5 +1,0 @@
-<Files ~ "^\.(htaccess|htpasswd)$">
-deny from all
-</Files>
-ErrorDocument 404 https://coconuts2.github.io/error/404.html
-order deny,allow
